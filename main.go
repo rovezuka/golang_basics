@@ -66,6 +66,7 @@ func main() {
 
 	// больше чем
 	fmt.Println(a > b) // выведет true
+
 	// логическое И
 	fmt.Println(a != b && a >= b) // выведет true
 
@@ -74,4 +75,17 @@ func main() {
 
 	// логическое НЕ
 	fmt.Println(!(a < b)) // выведет true
+
+	// ввод
+	// вывод суммы чисел
+	// var j int
+	// var k int
+	// fmt.Scan(&j)
+	// fmt.Scan(&k)
+	// fmt.Println(j + k)
+
+	// вывод через Scanln
+	var j, k int
+	fmt.Scanln(&j, &k)
+	fmt.Println(j + k)
 }
