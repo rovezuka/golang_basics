@@ -3,16 +3,23 @@ package main
 import "fmt"
 
 func main() {
-	// вывод текста через функцию Println из пакета "fmt"
 	/* Просто
 	многострочный
 	комментарий
 	*/
+
+	// контстанта
 	const pi = 3.14
+	fmt.Println(pi)
+
+	// вывод текста через функцию Println из пакета "fmt"
 	fmt.Println("Hello, world!")
+
+	// объявление переменных
 	x, y := 18, 19
 	fmt.Println(x, y)
-	fmt.Println(pi)
+
+	// арифмитические операции
 	var a int = 31
 	var b int = 14
 	var result int
@@ -36,4 +43,35 @@ func main() {
 	// остаток от деления
 	result = a % b
 	fmt.Println(result) // выведет 3
+	c := "Привет, "
+	d := "Мир!"
+	fmt.Println(c + d) // выведет: Привет, Мир!
+
+	// операторы присваивания
+	a += b
+	fmt.Println(a) // выведет 45
+
+	// инкремент и декремент
+	a++            // аналог выражения a = a + 1
+	fmt.Println(a) // выведет 3
+	a--            // аналог выражения a = a - 1
+	fmt.Println(a) // выведет 1
+
+	// операторы сравнения и логические операторы
+	// равно
+	fmt.Println(a == b) // выведет false
+
+	// не равно
+	fmt.Println(a != b) // выведет true
+
+	// больше чем
+	fmt.Println(a > b) // выведет true
+	// логическое И
+	fmt.Println(a != b && a >= b) // выведет true
+
+	// логическое ИЛИ
+	fmt.Println(a == b || a > b) // выведет true
+
+	// логическое НЕ
+	fmt.Println(!(a < b)) // выведет true
 }
