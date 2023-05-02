@@ -8,7 +8,9 @@ func main() {
 	многострочный
 	комментарий
 	*/
+	const pi = 3.14
 	fmt.Println("Hello, world!")
 	x, y := 18, 19
 	fmt.Println(x, y)
+	fmt.Println(pi)
 }
