@@ -9,6 +9,6 @@ func main() {
 	комментарий
 	*/
 	fmt.Println("Hello, world!")
-	var x int = 18
-	fmt.Println(x)
+	x, y := 18, 19
+	fmt.Println(x, y)
 }
