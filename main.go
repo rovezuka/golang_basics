@@ -9,4 +9,6 @@ func main() {
 	комментарий
 	*/
 	fmt.Println("Hello, world!")
+	var x int = 18
+	fmt.Println(x)
 }
