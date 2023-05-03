@@ -7,9 +7,16 @@ func main() {
 	*/
 
 	/*
-					// контстанта
+					// контстанта и iota
 					const pi = 3.14
 					fmt.Println(pi)
+					const (
+						a = iota // 0
+						b
+						c
+						d // 3, так как iota каждый раз увеличивается на 1
+					)
+
 					// вывод текста через функцию Println из пакета "fmt"
 					fmt.Println("Hello, world!")
 
