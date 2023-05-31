@@ -28,7 +28,7 @@ func main() {
 	_, err2 := fmt.Scanln(&age)
 	if err2 != nil { // проверка, что введен integer
 		fmt.Println("Ошибка чтения ввода:", err2)
-		return
+		return // завершение работы функции main
 	}
 
 	fmt.Println("Ваш возраст:", age)
