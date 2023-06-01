@@ -1,0 +1,1 @@
+## In each individual folder, the Go language packages are described in detail. The various methods and features of the packages are explored and tried out
