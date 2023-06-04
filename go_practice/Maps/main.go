@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+type age int // кастомный тип
+
 func main() {
 	var mapsOne map[string]int // создание мапы
 	fmt.Println(mapsOne)
@@ -36,4 +38,16 @@ func main() {
 	}
 	fmt.Println(mapsTwo)
 
+	customTypes()
+
+}
+
+func (a age) isAdult() bool { // метод кастомного типа
+	return a >= 18
+}
+
+func customTypes() {
+	myAge := age(22)
+
+	fmt.Println("Я совершеннолетний?:", myAge.isAdult())
 }
