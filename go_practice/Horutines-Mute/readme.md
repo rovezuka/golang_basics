@@ -1,0 +1,1 @@
+## Mutex is used to synchronise access to shared data from different goroutines. It provides a locking mechanism that allows only one goroutine to access a critical piece of code at a time.

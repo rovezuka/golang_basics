@@ -1,0 +1,1 @@
+ ## WaitGroup allows the main goroutine to wait for all other goroutines to complete before continuing its execution.
